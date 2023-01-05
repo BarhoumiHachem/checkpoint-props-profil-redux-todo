@@ -1,0 +1,12 @@
+.addtask{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 400px;
+}
+
+.input{
+    border-radius: 10px;
+    border: 2px solid #04a96d;
+    padding: 10px;
+}

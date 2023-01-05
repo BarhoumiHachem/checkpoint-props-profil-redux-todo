@@ -1,9 +1,27 @@
 .App {
   text-align: center;
+  align-items: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif, Fantasy;
-  background-color: #cbf3f0;
-  margin: 60px 150px;
-  padding: 40px;
-  display: flex;
 }
 
+.App-header {
+  padding: 50px;
+  height: 100%;
+  background-image: url('1Sans titre.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+}
+
+.filter{
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnfilter{
+  margin: 0 10px;
+}
